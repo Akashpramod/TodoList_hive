@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/adapters.dart';
-import 'package:todo_hive/HomePage.dart';
+import 'package:todo_hive/home.dart';
 
 void main()async{
   await Hive.initFlutter();
@@ -62,7 +62,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.indigo
       ),
-      home: HomePage(),
+      home: HomeScreen(),
       
     );
   }
